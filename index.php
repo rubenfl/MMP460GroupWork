@@ -20,7 +20,6 @@ get_header(); ?>
 			<div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1" id="carouselcontainer">
-                <h1 class="text-center">COROUSEL IMAGES</h1>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -39,7 +38,6 @@ get_header(); ?>
                         <div class="item active">
                             <img class="img-responsive" src="wp-content/themes/komaruga/images/photo1.jpg" alt="........">
                             <div class="carousel-caption">
-                                Come talk with us! If you are interested in developing an idea, or working with a faculty, student, or external partner on a project relating to assistive and adaptive technology, please be in touch: abilitylab@nyu.edu.
                             </div>
                         </div>
                         <div class="item">
@@ -105,25 +103,25 @@ get_header(); ?>
   </div>
    </div>
    <div id="text">
-    <p><strong>Come talk with us!</strong> If you are interested in developing an idea, or working with a faculty, student, or external</br> partner on a project relating to assistive and adaptive technology, please be in touch: <strong><a href="mailto:abilitylab@nyu.edu">abilitylab@nyu.edu</a></strong>"."</p>
+    <p><strong>Come talk with us!</strong> If you are interested in developing an idea, or working with a faculty, student, or external partner on a project relating to assistive and adaptive technology, please be in touch: <strong><a href="mailto:abilitylab@nyu.edu">abilitylab@nyu.edu</a></strong>"."</p>
     <h1>ABOUT</h1>
-    <p>The ABILITY Lab is an interdisciplinary research space dedicated to the development</br> of adaptive and assistive technologies. The Lab is open to NYU students and faculty of all fields </br>looking to create inclusive systems, design human-centered projects, and further intellectual </br> clinical research around areas of ability.</br>
+    <p>The ABILITY Lab is an interdisciplinary research space dedicated to the development of adaptive and assistive technologies. The Lab is open to NYU students and faculty of all fields looking to create inclusive systems, design human-centered projects, and further intellectual clinical research around areas of ability.
 
-Projects incubated at the Lab are intended to be ongoing, multi-disciplinary, and client-facing, with a strong</br> emphasis on open source practices, partnerships with NYC-based advocacy groups and agencies, and service</br> learning opportunities for students across NYU.</p>
+Projects incubated at the Lab are intended to be ongoing, multi-disciplinary, and client-facing, with a strong emphasis on open source practices, partnerships with NYC-based advocacy groups and agencies, and service learning opportunities for students across NYU.</p></div>
 
 
 			<!--end-->
 
-		<!--<?php //if ( have_posts() ) : ?>
+		<?php if ( have_posts() ) : ?>
 
 			<?php //i//f ( is_home() && ! is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php //single_post_title(); ?></h1>
 				</header>
-			<?php //endif; ?>
+			<?php endif; ?>
 
 			<?php /* Start the Loop */ ?>
-			<?php //while ( have_posts() ) : the_post(); ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php
 
@@ -135,15 +133,14 @@ Projects incubated at the Lab are intended to be ongoing, multi-disciplinary, an
 					//get_template_part( 'template-parts/content', get_post_format() );
 				?>
 
-			<?php //endwhile; ?>-->
+			<?php endwhile; ?>-->
 
-			<?php //the_posts_navigation(); ?>
+			<?php the_posts_navigation(); ?>
 
-		<?php //else : ?>
+		<?php else : ?>
 
-			<?php //get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php //endif; ?>
+			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

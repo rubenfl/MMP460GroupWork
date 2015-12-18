@@ -1,0 +1,108 @@
+nav{
+    background: #543085;
+    margin: 0;
+    margin-bottom: 2%;
+}
+nav{
+    height:50px;
+    width: 100%;
+    margin-top: 0px;
+    display: inline-block;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+   padding-top: 10px;
+  padding-left: 7%;
+  }
+nav a{
+    font-size: 1.5em;
+    text-decoration: none;
+    }
+nav a:hover{
+    background-color:black;
+}
+@media (max-width: 767.999999px) { 
+    .navbar-default {
+        
+    }
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img_border {
+    border: 1px solid #000;
+}
+.social-media-icons{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+}
+
+.push img {
+    margin: 40px 0;
+    width: 250px;
+    height: 250px;
+    border: solid 1px #000;
+}
+
+.popover{
+    background: #5E2B88;
+    background: hsl(273, 52%, 35%);
+    color: #fff;
+    color: hsl(0, 100%, 100%);
+}
+
+.popover-title{
+    background: #36184e;
+    background: hsl(273, 52%, 20%);
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .push.row {
+        margin-left: 80px;
+    }
+}
+#logo img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#ongoing p{
+    color: black;
+    font-size: .5em;
+    font-family: helvetica;
+    text-align: left;
+}
+#ongoing a{
+    font-size: 1em;
+    text-align: left;
+}
+#main li{
+    color: black;
+    font-size: .5em;
+    font-family: helvetica;
+}
+#links p{
+    text-align: left;
+    padding-top: 4%;
+}
+#links a{
+    text-align: left;
+}
+#links2 p{
+    text-align: left;
+    padding-top: 4%;
+}
+#links2 a{
+    text-align: left;
+}

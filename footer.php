@@ -42,11 +42,6 @@
 </footer>
 		<!-- end-->
 
-
-
-
-
-
 		</div><!-- .site-info -->
 	<!--</footer><!-- #colophon -->
 </div><!-- #page -->
